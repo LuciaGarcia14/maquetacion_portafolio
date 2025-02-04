@@ -122,5 +122,44 @@
         </div>
       </div>
     </section>
+
+    <section>
+      <div class="formulario__container">
+        <h1>Formulario</h1>
+        <form action="formulario_web">
+          <div class="form-group">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" placeholder="Introduce tu nombre" />
+          </div>
+
+          <div class="form-group">
+            <label for="lastname1">Primer apellido:</label>
+            <input
+              type="text"
+              id="lastname1"
+              placeholder="Introduce tu primer apellido"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="age">Edad:</label>
+            <input type="number" id="age" placeholder="¿Qué edad tienes?" />
+          </div>
+
+          <div class="form-group">
+            <label for="residence">¿Vives o resides en España?</label>
+            <div class="checkbox-group">
+              <label for="yes">Sí</label>
+              <input type="checkbox" id="yes" name="response" value="si" />
+
+              <label for="no">No</label>
+              <input type="checkbox" id="no" name="response" value="no" />
+            </div>
+          </div>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
   </body>
 </html>
